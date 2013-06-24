@@ -2,6 +2,8 @@
 
 A light wrapper for using [dynamo.js](http://jordanscales.com/dynamo/) with Ruby on Rails.
 
+[![Build Status](https://travis-ci.org/hstove/dynamojs_rails.png?branch=master)](https://travis-ci.org/hstove/dynamojs_rails)
+
 ## Installation
 
 In your `Gemfile`:
