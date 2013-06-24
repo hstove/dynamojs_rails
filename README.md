@@ -3,6 +3,7 @@
 A light wrapper for using [dynamo.js](http://jordanscales.com/dynamo/) with Ruby on Rails.
 
 ## Installation
+
 In your `Gemfile`:
 
 ~~~Ruby
@@ -35,7 +36,8 @@ dynamo_tag :h2, %w{one two}, {
   callback: "dynamoCallback",
   class: "blinking"
 }
-# => <span class="blinking dynamo" data-callback="dynamoCallback" data-center="true" data-delay="1000" data-lines="two" data-pause="true" data-speed="100">one</span>
+# => <span class="blinking dynamo" data-callback="dynamoCallback" data-center="true"
+  data-delay="1000" data-lines="two" data-pause="true" data-speed="100">one</span>
 ~~~
 
 All elements with the `.dynamo` class will are already invoked with `$.dynamo()`

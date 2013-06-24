@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = DynamojsRails::VERSION
   spec.authors       = ["Hank Stoever"]
   spec.email         = ["hstove@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{A light wrapper for using dynamo.js with Ruby on Rails}
+  spec.summary       = %q{A light wrapper for using dynamo.js with Ruby on Rails}
+  spec.homepage      = "https://github.com/hstove/dynamojs_rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
